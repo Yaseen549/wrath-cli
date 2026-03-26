@@ -1,0 +1,35 @@
+{
+  "name": "@yaseen59/wrath-cli",
+  "version": "1.0.0",
+  "description": "An AI-powered developer CLI for scaffolding, indexing, and intelligently fixing codebases.",
+  "type": "module",
+  "bin": {
+    "wrath": "./bin/wrath.js"
+  },
+  "scripts": {
+    "start": "node bin/wrath.js",
+    "lint": "node --check src/**/*.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.1.0",
+    "diff": "^5.2.0",
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "glob": "^10.4.5",
+    "ignore": "^5.3.1",
+    "inquirer": "^9.2.23"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "scaffold",
+    "developer-tools",
+    "code-indexer"
+  ],
+  "author": "",
+  "license": "MIT"
+}
